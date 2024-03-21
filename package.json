@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.1",
-    "rg-express": "^0.9.6"
+    "rg-express": "^0.9.8"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
