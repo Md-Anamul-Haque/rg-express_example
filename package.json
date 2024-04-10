@@ -5,20 +5,21 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc",
-    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
+    "dev": "nodemon",
+    "build": "tsc && tsc-alias"
   },
   "author": "md-anamul-haque",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.1",
-    "rg-express": "^0.9.8"
+    "rg-express": "^0.9.82"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.30",
     "nodemon": "^3.1.0",
-    "tsc-watch": "^6.0.4",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.3"
   }
 }
