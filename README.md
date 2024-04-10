@@ -5,7 +5,6 @@ Here's your project's README.md file, incorporating the use of rg-express:
 This project provides several APIs using the `rg-express` library. Below is a summary of each API endpoint:
 
 - `/`: Root endpoint of the application.
-  
 - `/hello`: Endpoint to greet the user.
 
 - `/hello/*`: Endpoint to greet the user with variable slugs in the URL.
@@ -18,14 +17,15 @@ This project provides several APIs using the `rg-express` library. Below is a su
 
 ```bash
 ├── package.json
-└── src
-└── routes
-├── product
-│ ├── route.ts // Handles '/product'
-│ └── [slug]/route.ts // Handles '/product/:slug'
-├── hello
-│ └── [...slugs]
-│ └── route.ts // Handles '/hello/:*'
+├── src
+├── routes
+      ├── product
+      │      ├── route.ts
+      │      └── [slug]/route.ts
+      ├── hello
+      │      └── [...slugs]
+      │      └── route.ts
+      └── ...
 
 ```
 
@@ -49,11 +49,4 @@ With `rg-express`, setting up and managing routes in your Express application be
 
 Happy coding!
 
-
 This README.md file provides an overview of the APIs available in your project, details about the project structure, and instructions for running the project. Adjust it according to your project's specific details and requirements.
-
-
-
-
-
-
