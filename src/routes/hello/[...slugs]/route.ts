@@ -1,6 +1,11 @@
+import { type Request as ExpressRequest, type Response } from 'express';
+type Request = ExpressRequest & {
+    slugs: string[];
+};
 
-import { Request, Response } from "express";
-export const GET = async (req:Request, res:Response) => {
-    res.json({ message: 'You requested a non-ID route',slugs:req.params.slugs });
-  };
-  
+export const GET = async (req: Request, res: Response) => {
+    const { slugs } = req.params;
+
+    res.send({ slugs })
+};
+    
