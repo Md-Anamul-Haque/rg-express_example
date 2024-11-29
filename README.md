@@ -35,11 +35,31 @@ You can easily understand the structure and functionality of each endpoint by ex
 
 To run the project, ensure you have installed the necessary dependencies, including `rg-express`. Then, follow the instructions below:
 
-1. Clone this repository.
+1. Clone this repository. [git clone https://github.com/Md-Anamul-Haque/rg-express_example.git]
 2. Navigate to the project directory.
-3. Install dependencies using `npm install`.
-4. build the server using `npm run build`.
-5. Start the server using `npm start`.
+3. Install dependencies using `pnpm install`.
+4. build the server using `pnpm build`.
+5. Start the server using `pnpm start`.
+
+```bash
+git clone https://github.com/Md-Anamul-Haque/rg-express_example.git
+pnpm i
+pnpm dev
+
+pnpm build
+pnpm start
+```
+
+## or
+
+```bash
+git clone https://github.com/Md-Anamul-Haque/rg-express_example.git
+npm i
+npm run dev
+
+npm run build
+npm start
+```
 
 The server will be running, and you can now access the provided APIs.
 
