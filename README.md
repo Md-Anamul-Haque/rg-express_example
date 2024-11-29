@@ -16,7 +16,7 @@ pnpm i
 pnpm dev
 
 pnpm build
-pnpm start
+pnpm start // for production
 ```
 
 ## or
@@ -27,7 +27,7 @@ npm i
 npm run dev
 
 npm run build
-npm start
+npm start // for production
 ```
 
 The server will be running, and you can now access the provided APIs.
