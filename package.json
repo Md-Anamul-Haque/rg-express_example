@@ -1,6 +1,6 @@
 {
   "name": "example_rg-express",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,15 +11,15 @@
   "author": "md-anamul-haque",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.1",
-    "rg-express": "^0.9.90"
+    "express": "latest",
+    "rg-express": "latest"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.11.30",
-    "nodemon": "^3.1.0",
-    "tsc-alias": "^1.8.8",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.3"
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "nodemon": "latest",
+    "tsc-alias": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
   }
 }
