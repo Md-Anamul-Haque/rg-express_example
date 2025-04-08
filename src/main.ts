@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json());
 app.use(rg.routes({
   baseDir: __dirname,
-  autoSetup: true
+  routeGenIfEmpty: true
 }));
 
 // Start the server
