@@ -1,8 +1,7 @@
-// API route with ID parameter
-  import { Request, Response } from "express";
+import { Request as ExpressRequest, Response } from 'express';
+type Request = ExpressRequest<{ id: string; }>;
 
-  export const GET = async (req:Request, res:Response) => {
-    const { id } = req.params;
-    res.json({ message: `You requested data for ID: ${id}` });
-    };
-  
+export const GET = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  res.json({ message: `You requested data for ID: ${id}` });
+};
