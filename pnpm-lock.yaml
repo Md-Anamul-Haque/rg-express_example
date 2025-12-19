@@ -12,8 +12,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0
       rg-express:
-        specifier: 1.0.0-beta.8
-        version: 1.0.0-beta.8(express@5.1.0)
+        specifier: 1.1.1
+        version: 1.1.1(express@5.1.0)
     devDependencies:
       '@types/express':
         specifier: ^5.0.1
@@ -582,8 +582,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rg-express@1.0.0-beta.8:
-    resolution: {integrity: sha512-XDZwrBVwSgF4bl9mIL2sdlY8JHp4QkGTM5uB22vGERNVdk8icOb6azJuHipYmHH1FjdHNzYx30d6+7od2f/0pg==}
+  rg-express@1.1.1:
+    resolution: {integrity: sha512-8znRUdHdzXPloNOciwPsz73J9IaLcqyN7cGxMyRDbLqJV2lAgTvf7XqvdaC1p9pJto5hIICiUtB0NBqOTjWJYA==}
     engines: {node: '>=16'}
     peerDependencies:
       express: '>=5.0.0'
@@ -1215,7 +1215,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rg-express@1.0.0-beta.8(express@5.1.0):
+  rg-express@1.1.1(express@5.1.0):
     dependencies:
       express: 5.1.0
 
