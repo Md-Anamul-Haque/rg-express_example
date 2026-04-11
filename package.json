@@ -11,15 +11,15 @@
   "author": "md-anamul-haque",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "rg-express": "^1.2.0"
+    "express": "^5.2.1",
+    "rg-express": "^1.2.6"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.14.0",
-    "nodemon": "^3.1.9",
-    "tsc-alias": "^1.8.13",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
   }
 }
